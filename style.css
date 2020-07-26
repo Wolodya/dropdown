@@ -1,0 +1,40 @@
+.scrollable-menu {
+	height: auto;
+	max-height: 400px;
+	overflow-x: hidden;
+}
+
+.dropdown-menu.menu-custom{
+	border-radius: 8px;
+	width: 400px;
+	border-width: 5px;
+}
+
+.btn.btn-custom {
+	border-radius: 8px;
+	width: 100%;
+}
+
+.scrollable-menu .dropdown-item:hover {
+	cursor: pointer;
+}
+.dropdown-item label:hover {
+	cursor: pointer;
+}
+
+.dropdown-item.active,.dropdown-item:active{
+	background-color: unset;
+	color: unset;
+}
+
+.dropdown-controls {
+	padding-top: 24px;
+}
+
+.group {
+	padding-top: 24px;
+}
+
+#dropdownMenuButton {
+	background-color: #D3D3D3;
+}
